@@ -8,7 +8,7 @@ import { useHistory } from "react-router-dom";
 // Media Resize
 import { smallImage } from "../util";
 
-const GameDetail = () => {
+const GameDetail = ({ pathID }) => {
   // Define History
   const history = useHistory();
 
@@ -28,10 +28,10 @@ const GameDetail = () => {
     <>
       {!isLoading && (
         <CardShadow className="shadow" onClick={exitDetailHandler}>
-          <Detail>
+          <Detail layoutId={pathID}>
             <Stats>
               <div className="rating">
-                <h3>{game.name}</h3>
+                <motion.h3 layoutId={`title ${pathID}`}>{game.name}</motion.h3>
                 <p>Rating: {game.rating}</p>
               </div>
               <Info>
@@ -44,10 +44,11 @@ const GameDetail = () => {
               </Info>
             </Stats>
             <Media>
-              <img
+              <motion.img
                 src={smallImage(game.background_image, 1280)}
                 alt="background"
                 loading="lazy"
+                layoutId={`image ${pathID}`}
               />
             </Media>
             <Description>
