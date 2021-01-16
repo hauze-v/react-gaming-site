@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/ignite/static/js/main.dc504a66.chunk.js",
+    "main.js.map": "/ignite/static/js/main.dc504a66.chunk.js.map",
+    "runtime-main.js": "/ignite/static/js/runtime-main.d65b7e35.js",
+    "runtime-main.js.map": "/ignite/static/js/runtime-main.d65b7e35.js.map",
+    "static/js/2.2cb63d3d.chunk.js": "/ignite/static/js/2.2cb63d3d.chunk.js",
+    "static/js/2.2cb63d3d.chunk.js.map": "/ignite/static/js/2.2cb63d3d.chunk.js.map",
+    "static/js/3.b440893c.chunk.js": "/ignite/static/js/3.b440893c.chunk.js",
+    "static/js/3.b440893c.chunk.js.map": "/ignite/static/js/3.b440893c.chunk.js.map",
+    "index.html": "/ignite/index.html",
+    "static/js/2.2cb63d3d.chunk.js.LICENSE.txt": "/ignite/static/js/2.2cb63d3d.chunk.js.LICENSE.txt",
+    "static/media/apple.0face2ba.svg": "/ignite/static/media/apple.0face2ba.svg",
+    "static/media/gamepad.d8c7d823.svg": "/ignite/static/media/gamepad.d8c7d823.svg",
+    "static/media/logo.9b6b8655.svg": "/ignite/static/media/logo.9b6b8655.svg",
+    "static/media/nintendo.a60973c8.svg": "/ignite/static/media/nintendo.a60973c8.svg",
+    "static/media/playstation.3458db85.svg": "/ignite/static/media/playstation.3458db85.svg",
+    "static/media/steam.d312432f.svg": "/ignite/static/media/steam.d312432f.svg",
+    "static/media/xbox.653195c0.svg": "/ignite/static/media/xbox.653195c0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d65b7e35.js",
+    "static/js/2.2cb63d3d.chunk.js",
+    "static/js/main.dc504a66.chunk.js"
+  ]
+}
