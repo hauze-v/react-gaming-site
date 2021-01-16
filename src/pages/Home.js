@@ -50,7 +50,7 @@ const Home = () => {
         ) : (
           ""
         )}
-        <h2>Upcoming Games</h2>
+        <h2>Upcoming</h2>
         <Games>
           {upcoming.map((game) => (
             <Game
@@ -62,7 +62,7 @@ const Home = () => {
             />
           ))}
         </Games>
-        <h2>Popular Games</h2>
+        <h2>Popular Now</h2>
         <Games>
           {popular.map((game) => (
             <Game
@@ -74,7 +74,7 @@ const Home = () => {
             />
           ))}
         </Games>
-        <h2>New Games</h2>
+        <h2>Brand New</h2>
         <Games>
           {newGames.map((game) => (
             <Game
