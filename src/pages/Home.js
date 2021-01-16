@@ -7,6 +7,7 @@ import GameDetail from "../components/GameDetail";
 // Stying and Animation
 import styled from "styled-components";
 import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion";
+import { fadeIn } from "../animations";
 // React Router Dom
 import { useLocation } from "react-router-dom";
 
@@ -26,7 +27,7 @@ const Home = () => {
   );
 
   return (
-    <GameList>
+    <GameList variants={fadeIn} initial="hidden" animate="show">
       <AnimateSharedLayout type="crossfade">
         <AnimatePresence>
           {pathID && <GameDetail pathID={pathID} />}
