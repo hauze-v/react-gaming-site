@@ -74,7 +74,7 @@ const Home = () => {
             />
           ))}
         </Games>
-        <h2>Brand New</h2>
+        <h2>New Games</h2>
         <Games>
           {newGames.map((game) => (
             <Game
