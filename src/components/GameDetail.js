@@ -8,7 +8,7 @@ import { useHistory } from "react-router-dom";
 // Media Resize
 import { smallImage } from "../util";
 // Images
-import playstation from "../img/playstation.svg";
+import ps4 from "../img/ps4.svg";
 import steam from "../img/steam.svg";
 import xbox from "../img/xbox.svg";
 import nintendo from "../img/nintendo.svg";
@@ -18,6 +18,7 @@ import starEmpty from "../img/star-empty.png";
 import starFull from "../img/star-full.png";
 import wii from "../img/wii.svg";
 import wiiU from "../img/wii-u-games-tool.svg";
+import ps5 from "../img/ps5.svg";
 
 const GameDetail = ({ pathID }) => {
   // Define History
@@ -52,7 +53,9 @@ const GameDetail = ({ pathID }) => {
   const getPlatformImg = (platform) => {
     switch (platform) {
       case "PlayStation 4":
-        return playstation;
+        return ps4;
+      case "PlayStation 5":
+        return ps5;
       case "Xbox One":
         return xbox;
       case "PC":
