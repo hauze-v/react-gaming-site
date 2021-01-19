@@ -16,6 +16,8 @@ import apple from "../img/apple.svg";
 import gamepad from "../img/gamepad.svg";
 import starEmpty from "../img/star-empty.png";
 import starFull from "../img/star-full.png";
+import wii from "../img/wii.svg";
+import wiiU from "../img/wii-u-games-tool.svg";
 
 const GameDetail = ({ pathID }) => {
   // Define History
@@ -59,6 +61,10 @@ const GameDetail = ({ pathID }) => {
         return nintendo;
       case "iOS":
         return apple;
+      case "Wii":
+        return wii;
+      case "Wii U":
+        return wiiU;
       default:
         return gamepad;
     }
@@ -151,6 +157,13 @@ const Detail = styled(motion.div)`
   img {
     width: 100%;
   }
+  /* Mobile Styles */
+  @media (max-width: 385px) {
+    padding: 1rem;
+    img {
+      width: 100%;
+    }
+  }
 `;
 
 const Stats = styled(motion.div)`
@@ -162,17 +175,56 @@ const Stats = styled(motion.div)`
     height: 2rem;
     display: inline;
   }
+  /* Mobile Styles */
+  @media (max-width: 380px) {
+    display: block;
+    h3 {
+      font-size: 1rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    p {
+      font-size: 1rem;
+    }
+    img {
+      width: 1rem;
+      height: 1rem;
+    }
+    div.rating {
+      margin-bottom: 1rem;
+    }
+  }
 `;
 
 const Info = styled(motion.div)`
   text-align: center;
+  /* Mobile Styles */
+  @media (max-width: 385px) {
+    display: block;
+    h3 {
+      text-align: left;
+      padding: 0.5rem 0;
+      color: #696969;
+      font-weight: lighter;
+    }
+  }
 `;
 
 const Platforms = styled(motion.div)`
   display: flex;
   justify-content: space-evenly;
+  padding: 1rem;
   img {
-    margin-left: 3rem;
+    margin: 0rem 1rem;
+  }
+  /* Mobile Styles */
+  @media (max-width: 385px) {
+    img {
+      margin-left: 0;
+      margin-right: 0.75rem;
+    }
+    display: block;
+    text-align: left;
   }
 `;
 
@@ -181,10 +233,22 @@ const Media = styled(motion.div)`
   img {
     width: 100%;
   }
+  /* Mobile Styles */
+  @media (max-width: 385px) {
+    margin-top: 3rem;
+  }
 `;
 
 const Description = styled(motion.div)`
   margin: 5rem 0rem;
+  /* Mobile Styles */
+  @media (max-width: 385px) {
+    margin: 3rem 0rem;
+    p {
+      font-size: 0.75rem;
+      line-height: 1.75rem;
+    }
+  }
 `;
 
 export default GameDetail;
