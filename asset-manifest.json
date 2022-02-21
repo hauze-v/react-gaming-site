@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.js": "/ignite/static/js/main.4341c0ec.chunk.js",
-    "main.js.map": "/ignite/static/js/main.4341c0ec.chunk.js.map",
-    "runtime-main.js": "/ignite/static/js/runtime-main.d65b7e35.js",
-    "runtime-main.js.map": "/ignite/static/js/runtime-main.d65b7e35.js.map",
-    "static/js/2.2cb63d3d.chunk.js": "/ignite/static/js/2.2cb63d3d.chunk.js",
-    "static/js/2.2cb63d3d.chunk.js.map": "/ignite/static/js/2.2cb63d3d.chunk.js.map",
-    "static/js/3.b440893c.chunk.js": "/ignite/static/js/3.b440893c.chunk.js",
-    "static/js/3.b440893c.chunk.js.map": "/ignite/static/js/3.b440893c.chunk.js.map",
+    "main.js": "/ignite/static/js/main.d6185ca7.chunk.js",
+    "main.js.map": "/ignite/static/js/main.d6185ca7.chunk.js.map",
+    "runtime-main.js": "/ignite/static/js/runtime-main.f948d548.js",
+    "runtime-main.js.map": "/ignite/static/js/runtime-main.f948d548.js.map",
+    "static/js/2.23726e65.chunk.js": "/ignite/static/js/2.23726e65.chunk.js",
+    "static/js/2.23726e65.chunk.js.map": "/ignite/static/js/2.23726e65.chunk.js.map",
+    "static/js/3.98ed3d24.chunk.js": "/ignite/static/js/3.98ed3d24.chunk.js",
+    "static/js/3.98ed3d24.chunk.js.map": "/ignite/static/js/3.98ed3d24.chunk.js.map",
     "index.html": "/ignite/index.html",
-    "static/js/2.2cb63d3d.chunk.js.LICENSE.txt": "/ignite/static/js/2.2cb63d3d.chunk.js.LICENSE.txt",
+    "static/js/2.23726e65.chunk.js.LICENSE.txt": "/ignite/static/js/2.23726e65.chunk.js.LICENSE.txt",
     "static/media/apple.36c415a0.svg": "/ignite/static/media/apple.36c415a0.svg",
     "static/media/gamepad.e0ca4c9e.svg": "/ignite/static/media/gamepad.e0ca4c9e.svg",
     "static/media/logo.9b6b8655.svg": "/ignite/static/media/logo.9b6b8655.svg",
     "static/media/nintendo.f62040a6.svg": "/ignite/static/media/nintendo.f62040a6.svg",
-    "static/media/ps4.5c92f596.svg": "/ignite/static/media/ps4.5c92f596.svg",
+    "static/media/ps4.111b7393.svg": "/ignite/static/media/ps4.111b7393.svg",
     "static/media/ps5.ce63289b.svg": "/ignite/static/media/ps5.ce63289b.svg",
     "static/media/steam.3fa7e7f3.svg": "/ignite/static/media/steam.3fa7e7f3.svg",
-    "static/media/wii-u-games-tool.f240ab9a.svg": "/ignite/static/media/wii-u-games-tool.f240ab9a.svg",
-    "static/media/wii.d38f240d.svg": "/ignite/static/media/wii.d38f240d.svg",
+    "static/media/wii-u-games-tool.b7c1b748.svg": "/ignite/static/media/wii-u-games-tool.b7c1b748.svg",
+    "static/media/wii.81930757.svg": "/ignite/static/media/wii.81930757.svg",
     "static/media/xbox.7fefdf61.svg": "/ignite/static/media/xbox.7fefdf61.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d65b7e35.js",
-    "static/js/2.2cb63d3d.chunk.js",
-    "static/js/main.4341c0ec.chunk.js"
+    "static/js/runtime-main.f948d548.js",
+    "static/js/2.23726e65.chunk.js",
+    "static/js/main.d6185ca7.chunk.js"
   ]
 }
