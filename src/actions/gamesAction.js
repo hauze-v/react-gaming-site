@@ -18,7 +18,7 @@ export const loadGames = () => async (dispatch) => {
       popular: popularGamesData.data.results,
       upcoming: upcomingGamesData.data.results,
       newGames: newGamesData.data.results,
-    },
+    }, 
   });
 };
 
